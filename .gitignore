@@ -1,11 +1,13 @@
- # 虚拟环境（千万别传，太大了）
-venv/
-.venv/
-__pycache__/
-
-# 敏感信息（API Key 和密码绝对不能公开！）
+ # 环境变量文件
 .env
-config.py
+.env.local
+.env.*.local
+
+# Python 缓存
+__pycache__/
+*.pyc
+.venv/
+venv/
 
 # IDE 配置
 .vscode/
